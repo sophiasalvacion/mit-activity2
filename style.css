@@ -1,0 +1,680 @@
+body {
+  background: #ffffff;
+}
+/*header*/
+.header-custom {
+  background-color: #a6776a;
+  width: auto;
+  height: 121px;
+}
+.logo-custom {
+  padding-left: 120px;
+  padding-bottom: 37px;
+  padding-right: 0px;
+}
+.log-in-custom {
+  padding-top: 7px;
+  padding-left: 1197px;
+  padding-right: 0px;
+  list-style: none;
+  border-right: solid 1px white;
+}
+.log-in-custom li a {
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+.log-in-custom .current {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+.register-custom {
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 120px;
+  list-style-type: none;
+}
+.register-custom li a {
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+.register-custom .current {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+/*navigation bar*/
+.navbar-custom-color {
+  background: #ce9c90;
+}
+/*link*/
+.navbar li {
+  float: left;
+  list-style: none;
+  width: auto;
+}
+/*link text*/
+.navbar li a {
+  color: white;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 120px;
+}
+.navbar .current {
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/*homepage pic*/
+.kbpic-custom {
+  width: 593px;
+  height: auto;
+  top: 261px;
+  left: 120px;
+  margin-top: 90px;
+  margin-left: 120px;
+}
+/*homepage description*/
+.kbtitle-custom {
+  color: #a6776a;
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  padding-left: 160px;
+  padding-top: 120px;
+  font-weight: bold;
+}
+.typewithusnow {
+  padding-left: 873px;
+}
+.typewithusnow a {
+  list-style-type: none;
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  background-color: #ce9c90;
+  width: 299px;
+  height: 38px;
+  text-decoration: none;
+}
+.kbdesc {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-top: 168px;
+  padding-left: 464px;
+}
+.kbdesc2 {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  font-weight: bold;
+  padding-top: 21px;
+  padding-left: 464px;
+}
+.keebsdesc {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #a6776a;
+  padding-left: 404px;
+  padding-top: 52px;
+}
+/*About Us*/
+.kbrepair1-custom {
+  padding-top: 25px;
+  padding-left: 124px;
+  position: absolute;
+}
+.kbrepair2-custom {
+  padding-top: 220px;
+  padding-left: 300px;
+  position: absolute;
+}
+.kbrepair3-custom {
+  padding-top: 384px;
+  padding-left: 121px;
+  position: relative;
+}
+.au-title-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-left: 275px;
+  padding-top: 144px;
+}
+.au-desc1-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  text-align: center;
+}
+.au-desc2-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  text-align: center;
+}
+.where-we-cater-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-left: 613px;
+}
+.column-instore {
+  margin-left: 423px;
+  width: fit-content;
+  border-right: solid 2px #a6776a;
+}
+.card-instore {
+  padding-right: 16px;
+}
+.in-store-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+}
+.column-home {
+  width: fit-content;
+  border-right: solid 2px #a6776a;
+}
+.card-home {
+  padding-left: 15px;
+  padding-right: 70px;
+}
+.home-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+}
+.column-outdoors {
+  width: fit-content;
+}
+.card-outdoors {
+  padding-left: 15px;
+}
+.outdoors-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+}
+/*Services*/
+.services-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  text-align: center;
+  padding-top: 45px;
+}
+.under-services-custom {
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  color: #ce9c90;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.prices-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 50px;
+}
+.prices2-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 80px;
+}
+.prices3-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+}
+.switch-custom {
+  width: 300px;
+  height: 300px;
+  margin-left: 120px;
+}
+.switches-title-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-left: 90px;
+}
+.lubing-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 1px;
+  padding-left: 50px;
+}
+.stwichingfilming-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 1px;
+  padding-left: 50px;
+}
+.kbd-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 1px;
+  padding-left: 50px;
+}
+.orings-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 1px;
+  padding-left: 50px;
+}
+.switchpads-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 1px;
+  padding-left: 50px;
+}
+.stabilizer-custom {
+  width: 359px;
+  height: 183px;
+  margin-left: 10px;
+}
+.stabilizers-title-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-left: 120px;
+}
+.lube-clip-tune-holee-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-left: 80px;
+}
+.band-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-left: 80px;
+}
+.card-mod-custom {
+  width: 359px;
+  height: 637px;
+  margin-left: 10px;
+}
+.mods-title-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-left: 80px;
+}
+.tempest-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.pe-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.jelly-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.force-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.case-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  /* padding-top: 15px; */
+}
+.eva-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.polyfill-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+.evapolyfill-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+}
+
+/*Technologies*/
+.technologies-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-left: 628px;
+  padding-top: 62px;
+}
+.hardware-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 68px;
+  padding-left: 381px;
+}
+.hardware-desc-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 288px;
+}
+.kbtools-custom {
+  padding-top: 27px;
+  padding-left: 270px;
+}
+.software-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 68px;
+  padding-left: 130px;
+}
+.software-desc-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 50px;
+}
+.redragontech-custom {
+  padding-left: 50px;
+}
+.rktech-custom {
+  padding-left: 50px;
+}
+/*Client and Partners*/
+.clientsandpartners-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-top: 134px;
+  padding-left: 610px;
+}
+.redragoncnp-custom {
+  padding-top: 112px;
+  padding-left: 120px;
+}
+.rkcnp-custom {
+  padding-top: 129px;
+  padding-left: 160px;
+}
+.shopeecnp-custom {
+  padding-top: 129px;
+  padding-left: 250px;
+}
+.akkocnp-custom {
+  padding-top: 125px;
+  padding-left: 180px;
+}
+.why-cnp-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #a6776a;
+  padding-top: 215px;
+  padding-left: 120px;
+}
+.cnp-desc-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 120px;
+}
+/*Contact Us*/
+.getintouch-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-top: 231px;
+  padding-left: 297px;
+}
+.getintouch-desc-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 297px;
+}
+.namecu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 297px;
+}
+.emailaddcu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-top: 37px;
+  padding-left: 297px;
+}
+.messagecu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-top: 36px;
+  padding-left: 297px;
+}
+.submit-custom {
+  padding-top: 105px;
+  padding-left: 297px;
+}
+.submit-custom a {
+  list-style-type: none;
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  background-color: #ce9c90;
+  width: 170px;
+  height: 40px;
+  text-decoration: none;
+}
+.calluscu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-top: 231px;
+  padding-left: 82px;
+}
+.phonecu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 82px;
+}
+.visituscu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-left: 82px;
+}
+.addresscu-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #ce9c90;
+  padding-left: 82px;
+}
+.pinloc-custom {
+  padding-left: 82px;
+}
+/*Log in*/
+.login-page-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 30px;
+  color: #a6776a;
+  padding-top: 132px;
+  padding-left: 672px;
+}
+.email-user-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 566px;
+  padding-top: 48px;
+}
+#enter-email-user {
+  border: 1px solid #a6776a;
+}
+
+.passwordlg-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 566px;
+  padding-top: 22px;
+}
+#passwordlg-custom {
+  border: 1px solid #a6776a;
+}
+.enter-log-in-custom {
+  padding-top: 26px;
+  padding-left: 570px;
+}
+.enter-log-in-custom a {
+  list-style-type: none;
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  background-color: #ce9c90;
+  width: 299px;
+  height: 38px;
+  text-decoration: none;
+}
+.newtokeebs-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  position: absolute;
+  padding-left: 607px;
+}
+.registerlogin-custom {
+  list-style-type: none;
+}
+.registerlogin-custom a {
+  color: #a6776a;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 741px;
+}
+/*Register*/
+.register-page-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 40px;
+  color: #a6776a;
+  padding-top: 132px;
+  padding-left: 580px;
+}
+.full-name-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 580px;
+  padding-top: 48px;
+}
+#enter-full-name {
+  border: 1px solid #a6776a;
+}
+.phone-number-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 580px;
+  padding-top: 18px;
+}
+#enter-phone-number {
+  border: 1px solid #a6776a;
+}
+.user-name-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 580px;
+  padding-top: 18px;
+}
+#enter-user-name {
+  border: 1px solid #a6776a;
+}
+.email-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 580px;
+  padding-top: 18px;
+}
+#enter-email {
+  border: 1px solid #a6776a;
+}
+.pass-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  padding-left: 580px;
+  padding-top: 18px;
+}
+#enter-pass {
+  border: 1px solid #a6776a;
+}
+.enter-register-custom {
+  padding-top: 26px;
+  padding-left: 580px;
+}
+.enter-register-custom a {
+  list-style-type: none;
+  color: white;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  background-color: #ce9c90;
+  width: 299px;
+  height: 38px;
+  text-decoration: none;
+}
+.haveanaccount-custom {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: #dadada;
+  position: absolute;
+  padding-left: 607px;
+}
+.loginregister-custom {
+  list-style-type: none;
+}
+.loginregister-custom a {
+  color: #a6776a;
+  list-style-type: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 781px;
+}
