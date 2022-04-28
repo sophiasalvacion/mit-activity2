@@ -468,6 +468,12 @@ body {
   color: #ce9c90;
   padding-left: 297px;
 }
+input.enter-text {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #a6776a;
+}
 .emailaddcu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
@@ -483,7 +489,7 @@ body {
   padding-left: 297px;
 }
 .submit-custom {
-  padding-top: 105px;
+  padding-top: 20px;
   padding-left: 297px;
 }
 .submit-custom a {
@@ -497,33 +503,39 @@ body {
   height: 40px;
   text-decoration: none;
 }
+.card-contactus{
+  margin-top: 230px;
+  padding-left: 100px;
+  border-left: solid 1px #ce9c90;
+}
+
 .calluscu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 30px;
   color: #a6776a;
-  padding-top: 231px;
-  padding-left: 82px;
+  /* padding-top: 231px;
+  padding-left: 82px; */
 }
 .phonecu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
-  color: #ce9c90;
-  padding-left: 82px;
+  /* color: #ce9c90;
+  padding-left: 82px; */
 }
 .visituscu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 30px;
   color: #a6776a;
-  padding-left: 82px;
+  /* padding-left: 82px; */
 }
 .addresscu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
   color: #ce9c90;
-  padding-left: 82px;
+  /* padding-left: 82px; */
 }
 .pinloc-custom {
-  padding-left: 82px;
+  /* padding-left: 82px; */
 }
 /*Log in*/
 .login-page-custom {
