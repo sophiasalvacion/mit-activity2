@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./../assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -25,10 +25,10 @@
         <div class="container-fluid">
           <div class="row m-0 p-0">
             <div class="col fw-bold log-in-custom">
-              <li><a href="login.html">log in</a></li>
+              <li><a href="./../pages/login.html">log in</a></li>
             </div>
             <div class="col fw-bold register-custom">
-              <li><a href="register.html">register</a></li>
+              <li><a href="./../pages/register.html">register</a></li>
             </div>
           </div>
         </div>
@@ -41,53 +41,51 @@
       <!--Nav Bar-->
       <nav class="navbar navbar-expand-lg navbar-custom-color">
         <ul class="navbar-nav">
-          <li><a class="current" href="homepage.html">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="technologies.html">Technologies</a></li>
-          <li><a href="clientsandpartners.html">Clients and Partners</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="./../pages/homepage.html">Home</a></li>
+          <li><a href="./../pages/aboutus.html">About Us</a></li>
+          <li><a href="./../pages/services.html">Services</a></li>
+          <li><a href="./../pages/technologies.html">Technologies</a></li>
+          <li>
+            <a class="current" href="./../pages/clientsandpartners.html"
+              >Clients and Partners</a
+            >
+          </li>
+          <li><a href="./../pages/contactus.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <!-- Main Content -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6">
-          <img class="kbpic-custom" src="images/kb.png" />
-        </div>
-        <div class="col-6 kbtitle-custom">
-          <h1 class="fw-bold">
-            They say<br />it’s just a keyboard,<br />
-            but to us it’s a hobby.
-          </h1>
-        </div>
+    <div class="row">
+      <div class="col clientsandpartners-custom">
+        <h2 class="fw-bold">Clients and Partners</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col typewithusnow">
-        <a href="register.html" class="btn btn-link fw-bold"
-          >type with us now</a
-        >
+      <div class="col-2">
+        <img class="redragoncnp-custom" src="./../assets/images/redragon.png" />
+      </div>
+      <div class="col-2">
+        <img class="rkcnp-custom" src="./../assets/images/rkcnp.png" />
+      </div>
+      <div class="col-2">
+        <img class="shopeecnp-custom" src="./../assets/images/shopee.png" />
+      </div>
+      <div class="col-6">
+        <img class="akkocnp-custom" src="./../assets/images/akko.png" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col why-cnp-custom">
+        <h4 class="fw-bold">Why Partner with us?</h4>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 kbdesc">
-        <h1 class="fw-bold">The satisfaction you get when typing.</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 kbdesc2">
+      <div class="col cnp-desc-custom">
         <p>
-          Nowadays what we buy are default keyboards, but at the same time
-          we've<br />moved into a world where we want to customize everthing to
-          our liking.
+          We strive to satisfy customer's best experience to continue the
+          services with us.
         </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 keebsdesc">
-        <h1 class="fw-bold">Keebs offer you to have the best experience.</h1>
       </div>
     </div>
   </body>
