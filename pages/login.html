@@ -46,7 +46,9 @@
           <li><a href="./../pages/services.html">Services</a></li>
           <li><a href="./../pages/technologies.html">Technologies</a></li>
           <li>
-            <a href="./../pages/clientsandpartners.html">Clients and Partners</a>
+            <a href="./../pages/clientsandpartners.html"
+              >Clients and Partners</a
+            >
           </li>
           <li><a href="./../pages/contactus.html">Contact Us</a></li>
         </ul>
@@ -58,34 +60,38 @@
         <div class="login-page-custom">
           <h1 class="fw-bold">Log In</h1>
         </div>
-        <div class="email-user-custom">
-          <table id="enter-email-user">
-            <tr>
-              <th>
-                Email / Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="passwordlg-custom">
-          <table id="passwordlg-custom">
-            <tr>
-              <th>
-                Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class=" enter-log-in-custom">
-          <a href="./../pages/homepage.html" class="btn btn-link fw-bold">LOG IN</a>
-        </div>
-        <div class="newtokeebs-custom">
-          <p>New to keebs?</p>
-        </div>
-        <div class="fw-bold registerlogin-custom">
-          <li><a href="./../pages/register.html">Register</a></li>
-        </div>
+        <form action="./../pages/login.php" method="post">
+          <input
+            type="email"
+            class="form-control"
+            id="regEmail"
+            placeholder="Email / Username"
+            name="regEmail"
+          />
+          <div class="passwordlg-custom">
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Password"
+              name="password"
+            />
+          </div>
+          <div class="enter-log-in-custom">
+            <input
+              type="submit"
+              class="btn btn-link"
+              value="LOG IN"
+              name="login"
+            />
+          </div>
+          <div class="newtokeebs-custom">
+            <p>New to keebs?</p>
+          </div>
+          <div class="fw-bold registerlogin-custom">
+            <li><a href="./../pages/register.html">Register</a></li>
+          </div>
+        </form>
       </div>
     </div>
   </body>

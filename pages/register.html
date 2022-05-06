@@ -46,7 +46,9 @@
           <li><a href="./../pages/services.html">Services</a></li>
           <li><a href="./../pages/technologies.html">Technologies</a></li>
           <li>
-            <a href="./../pages/clientsandpartners.html">Clients and Partners</a>
+            <a href="./../pages/clientsandpartners.html"
+              >Clients and Partners</a
+            >
           </li>
           <li><a href="./../pages/contactus.html">Contact Us</a></li>
         </ul>
@@ -58,63 +60,67 @@
         <div class="register-page-custom">
           <h1 class="fw-bold">Create an account</h1>
         </div>
-        <div class="full-name-custom">
-          <table id="enter-full-name">
-            <tr>
-              <th>
-                Full
-                name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="phone-number-custom">
-          <table id="enter-phone-number">
-            <tr>
-              <th>
-                Phone
-                number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="user-name-custom">
-          <table id="enter-user-name">
-            <tr>
-              <th>
-                Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="email-custom">
-          <table id="enter-email">
-            <tr>
-              <th>
-                Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="pass-custom">
-          <table id="enter-pass">
-            <tr>
-              <th>
-                Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </th>
-            </tr>
-          </table>
-        </div>
-        <div class="enter-register-custom">
-          <a href="./../pages/homepage.html" class="fw-bold btn btn-link">CREATE</a>
-        </div>
-        <div class="haveanaccount-custom">
-          <p>Have an account?</p>
-        </div>
-        <div class="fw-bold loginregister-custom">
-          <li><a href="./../pages/login.html">Log In</a></li>
-        </div>
+        <form action="./../pages/register.php" method="post">
+          <div class="form-group">
+            <input
+              type="name"
+              class="form-control"
+              id="fullName"
+              placeholder="Full name"
+              name="fullName"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control"
+              id="number"
+              placeholder="Phone number"
+              name="number"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="name"
+              class="form-control"
+              id="userName"
+              placeholder="Username"
+              name="userName"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="regEmail"
+              placeholder="Email"
+              name="regEmail"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              id="regPassword"
+              placeholder="Password"
+              name="regPassword"
+            />
+          </div>
+          <div class="enter-register-custom">
+            <input
+              type="submit"
+              class="btn btn-link fw-bold"
+              value="CREATE"
+              name="register"
+            />
+          </div>
+          <div class="haveanaccount-custom">
+            <p>Have an account?</p>
+          </div>
+          <div class="fw-bold loginregister-custom">
+            <li><a href="./../pages/login.html">Log In</a></li>
+          </div>
+        </form>
       </div>
     </div>
   </body>

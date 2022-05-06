@@ -513,26 +513,20 @@ input.enter-text {
   font-family: "Sarabun", sans-serif;
   font-size: 30px;
   color: #a6776a;
-  /* padding-top: 231px;
-  padding-left: 82px; */
 }
 .phonecu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
-  /* color: #ce9c90;
-  padding-left: 82px; */
 }
 .visituscu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 30px;
   color: #a6776a;
-  /* padding-left: 82px; */
 }
 .addresscu-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
   color: #ce9c90;
-  /* padding-left: 82px; */
 }
 
 /*Log in*/
@@ -543,32 +537,17 @@ input.enter-text {
   padding-top: 132px;
   padding-left: 672px;
 }
-.email-user-custom {
-  font-family: "Sarabun", sans-serif;
-  font-size: 20px;
-  color: #dadada;
-  padding-left: 566px;
-  padding-top: 48px;
-}
-#enter-email-user {
-  border: 1px solid #a6776a;
-}
-
-.passwordlg-custom {
-  font-family: "Sarabun", sans-serif;
-  font-size: 20px;
-  color: #dadada;
-  padding-left: 566px;
-  padding-top: 22px;
-}
-#passwordlg-custom {
-  border: 1px solid #a6776a;
+.form-control {
+  width: 25%;
+  margin-left: 38%;
+  margin-top: 1%;
+  border-color: #a6776a;
 }
 .enter-log-in-custom {
   padding-top: 26px;
   padding-left: 570px;
 }
-.enter-log-in-custom a {
+input.btn.btn-link{
   list-style-type: none;
   color: white;
   list-style-type: none;
@@ -605,7 +584,7 @@ input.enter-text {
   padding-top: 132px;
   padding-left: 580px;
 }
-.full-name-custom {
+/* .full-name-custom {
   font-family: "Sarabun", sans-serif;
   font-size: 20px;
   color: #dadada;
@@ -654,7 +633,7 @@ input.enter-text {
 }
 #enter-pass {
   border: 1px solid #a6776a;
-}
+} */
 .enter-register-custom {
   padding-top: 26px;
   padding-left: 580px;
